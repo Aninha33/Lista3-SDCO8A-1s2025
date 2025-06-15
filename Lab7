@@ -1,0 +1,13 @@
+Item 4.2 da prática: Consulta a Web Services com Java no NetBeans
+
+--- exec:3.1.0:exec (default-cli) @ lab7 ---
+=== Laborat�rio 7 - API HTTP Client ===
+Enviando mensagem para o servidor...
+Header de autentica��o gerado: Basic MDE0NzQ5ODUyMDM6ZzFxM1oyaEtaM2Joa3FFTWpXeE0wZ2NTYjhvRDlOSzZTa0ljZ2F4OQ==
+
+=== RESULTADO DA REQUISI��O ===
+Status Code: 201
+Headers: {:status=[201], cache-control=[no-cache, no-store, max-age=0, must-revalidate], content-type=[application/json], date=[Sun, 15 Jun 2025 13:21:59 GMT], expires=[0], pragma=[no-cache], strict-transport-security=[max-age=31536000; includeSubDomains], vary=[Origin, Access-Control-Request-Method, Access-Control-Request-Headers], x-content-type-options=[nosniff], x-frame-options=[DENY], x-gtw-api-time=[20], x-gtw-cluster=[prod2-bsb], x-gtw-pfl=[PF], x-gtw-req-id=[8gg8Ncz3U54QO2wUwcea9], x-gtw-retry=[0], x-gtw-service-id=[token], x-gtw-span-id=[1], x-gtw-uri-template=[/v1/autentica], x-gtw-user=[01474985203], x-pfl=[PF], x-ratelimit-burst-capacity=[9], x-ratelimit-remaining=[-1], x-ratelimit-replenish-rate=[8], x-ratelimit-requested-tokens=[1], x-xss-protection=[0]}
+Body: {"ambiente":"PRODUCAO","id":"01474985203","ip":"189.14.251.10, 192.168.1.130","perfil":"PF","cpf":"01474985203","categoria":"Id0","emissao":"2025-06-15T10:21:59","expiraEm":"2025-06-16T10:21:59","zoneOffset":"-03:00","token":"eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE3NDk5OTM3MTksImlzcyI6InRva2VuLXNlcnZpY2UiLCJleHAiOjE3NTAwODAxMTksImp0aSI6IjY4MDQ3MTFmLTE1MGUtNGU5ZC04OGRmLTU3NzIyYTA4OWEzNSIsImFtYmllbnRlIjoiUFJPRFVDQU8iLCJwZmwiOiJQRiIsImlwIjoiMTg5LjE0LjI1MS4xMCwgMTkyLjE2OC4xLjEzMCIsImNhdCI6IklkMCIsImNwZiI6IjAxNDc0OTg1MjAzIiwiaWQiOiIwMTQ3NDk4NTIwMyJ9.DN1YPEKa2w_Z7hJ2aCBzfIvVDbLX3t4iqyKSUyXwqkCiSgst55chLb27nD-QKXzN2muFGhhNwkyEn8RTQMrXkO0plXww7NwpbrkOK6c0OeFFmcenm5GmM0Nc3Zpdj84dyf4FScfcL-a60Zoasp5t5UnZ1joKS4pkj1rW-oQJ0fwV-LiSrCifp4GNoI3mNt4vI5dBvHiJLFz3Nr0ReIn1h3hZthlVgnO3w9kZTAC3HVYBeEX9q1A6Tp6qaMRvPvV_AY6VMh6f3QC0kCp62TZTioWgVmD8uBDa6hoOV6-gOv4UrHchTb3H4jlLkI1Myzp8vcecJAitcmBcF7f4uJfcug"}
+
+=== Laborat�rio conclu�do com sucesso! ===
